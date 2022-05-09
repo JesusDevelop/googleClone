@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+main{
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+}
+
+picture{
+    width: 100%;
+}
+img{
+    height: 10x;
+    width: 360px;
+}
+
+footer{
+
+    height: 25vh;
+}
+
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 2px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul{
+    margin-right: 1.2rem;
+}
+
+
