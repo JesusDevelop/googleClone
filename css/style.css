@@ -3,6 +3,11 @@
 
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav{
     height: 10vh;
     width: 100%;
@@ -17,7 +22,6 @@ picture{
    
 }
 img{
-    height: 10x;
     width: 360px;
 }
 
@@ -31,7 +35,9 @@ ul,li,a{
     text-decoration: none;
     display: inline;
     padding: 2px;
-    
+}
+a{
+    cursor: pointer;
 }
 
 .nav{
@@ -47,4 +53,9 @@ ul,li,a{
     justify-content: center;
     align-items: flex-start;
    
+}
+
+.cajaBusqueda{
+    display: flex;  
+    justify-content: center;
 }
