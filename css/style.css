@@ -18,11 +18,8 @@ main{
     height: 75vh;
 }
 
-picture{
-   
-}
-img{
-    width: 360px;
+main picture img{
+    width: 272px;
 }
 
 footer{
@@ -33,8 +30,10 @@ footer{
 ul,li,a{
     list-style: none;
     text-decoration: none;
-    display: inline;
-    padding: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 a{
     cursor: pointer;
@@ -46,6 +45,23 @@ a{
 }
 .nav ul{
     margin-right: 1.2rem;
+}
+nav ul li{
+    margin-right: 10px;
+}
+.menu-icono{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav ul li img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .logo, .logo-2container{
