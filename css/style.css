@@ -68,12 +68,16 @@ main .input-container{
 }
 main .input-container:hover{
 
-    
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
 }
-.input-container .icono-busqueda{
-
+/* .input-container .icono-busqueda{
+    position: absolute;
     background-image: url('https://img.icons8.com/android/24/000000/search.png');
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} */
 main .input-container input{
     width: 450px;
     height: 35px;
