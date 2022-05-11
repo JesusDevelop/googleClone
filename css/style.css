@@ -52,6 +52,25 @@ a{
 .main-input-container{
     display: flex;  
     justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .input-container input{
+    width: 450px;
+    height: 35px;
+    border: none;
+    outline: none;
 }
 .main-boton-container{
     display: flex;
