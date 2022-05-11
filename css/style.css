@@ -18,13 +18,6 @@ main{
     height: 75vh;
 }
 
-picture{
-   
-}
-img{
-    width: 360px;
-}
-
 footer{
 
     height: 25vh;
@@ -48,14 +41,22 @@ a{
     margin-right: 1.2rem;
 }
 
+/* desde aca comienza el main */
+
 .logo, .logo-2container{
     display: flex;
     justify-content: center;
     align-items: flex-start;
    
 }
-
-.cajaBusqueda{
+.main-input-container{
     display: flex;  
     justify-content: center;
+}
+.main-boton-container{
+    display: flex;
+    justify-content: center;
+}
+.main-boton-container div input{
+    margin: 10px;
 }
