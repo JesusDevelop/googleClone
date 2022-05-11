@@ -80,6 +80,14 @@ main .input-container:hover{
     height: 40px;
     width: 20px;
 }
+.input-container .icono-micro{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 40px;
+}
 main .input-container input{
     width: 450px;
     height: 35px;
